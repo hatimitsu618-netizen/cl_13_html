@@ -2,14 +2,28 @@ img {
   position: absolute;
 }
 
+.background {
+  left: 0;
+  top: 0;
+}
+
 .chou {
   width: 7%;
   height: auto;
+  transition: 0.3s
+}
+
+#foo {
+  width: 3%;
+  height: auto;
+  left: 500px;
+  top: 300px;
+  transition: all 0.3s
+  pointer-events: none;
 }
 
 #bg0 {
-  left: 0;
-  top: 0;
+
 }
 
 #bt0 {
@@ -23,7 +37,8 @@ img {
 }
 
 #bt2 {
-  left: 590px; top: 430px;
+  left: 590px;
+  top: 430px;
 }
 
 #message {
@@ -36,4 +51,5 @@ img {
   font-weight: bold;
   left: 20px;
   top: 35px;
+  pointer-events: none;
 }
