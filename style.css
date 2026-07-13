@@ -16,8 +16,6 @@ img {
 .who {
   width: 3%;
   height: auto;
-  left = (Math.random() * 750) + 100 + "px";
-  top = (Math.random() * 50) + 400 + "px";
   transition: 0.5s;
   
 }
