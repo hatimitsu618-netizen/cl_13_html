@@ -13,7 +13,7 @@ img {
   transition: 1s
 }
 
-#foo {
+.who {
   width: 3%;
   height: auto;
   left = (Math.random() * 750) + 100 + "px";
